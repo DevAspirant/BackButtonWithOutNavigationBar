@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "SecondViewController.h"
 
 @interface ViewController ()
 
@@ -24,6 +25,15 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+-(IBAction)GoToSecondViewController:(id)sender{
+    
+    SecondViewController *SVC = [self.storyboard instantiateViewControllerWithIdentifier:@"SecondViewContrtoller"];
+    
+    [self presentViewController:SVC
+                       animated:YES
+                     completion:nil];
+    
 }
 
 @end

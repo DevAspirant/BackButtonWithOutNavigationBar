@@ -21,6 +21,7 @@
 		58FBB66C19EAF4BC000BA005 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58FBB64E19EAF4BB000BA005 /* UIKit.framework */; };
 		58FBB67419EAF4BC000BA005 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 58FBB67219EAF4BC000BA005 /* InfoPlist.strings */; };
 		58FBB67619EAF4BC000BA005 /* BackButtonWithOutNavigationBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 58FBB67519EAF4BC000BA005 /* BackButtonWithOutNavigationBarTests.m */; };
+		58FBB68119EBB8D6000BA005 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58FBB68019EBB8D6000BA005 /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		58FBB67119EAF4BC000BA005 /* BackButtonWithOutNavigationBarTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BackButtonWithOutNavigationBarTests-Info.plist"; sourceTree = "<group>"; };
 		58FBB67319EAF4BC000BA005 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		58FBB67519EAF4BC000BA005 /* BackButtonWithOutNavigationBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BackButtonWithOutNavigationBarTests.m; sourceTree = "<group>"; };
+		58FBB67F19EBB8D6000BA005 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		58FBB68019EBB8D6000BA005 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				58FBB65919EAF4BB000BA005 /* AppDelegate.h */,
 				58FBB65A19EAF4BB000BA005 /* AppDelegate.m */,
 				58FBB65C19EAF4BC000BA005 /* Main.storyboard */,
+				58FBB67F19EBB8D6000BA005 /* SecondViewController.h */,
+				58FBB68019EBB8D6000BA005 /* SecondViewController.m */,
 				58FBB65F19EAF4BC000BA005 /* ViewController.h */,
 				58FBB66019EAF4BC000BA005 /* ViewController.m */,
 				58FBB66219EAF4BC000BA005 /* Images.xcassets */,
@@ -249,6 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58FBB68119EBB8D6000BA005 /* SecondViewController.m in Sources */,
 				58FBB66119EAF4BC000BA005 /* ViewController.m in Sources */,
 				58FBB65B19EAF4BB000BA005 /* AppDelegate.m in Sources */,
 				58FBB65719EAF4BB000BA005 /* main.m in Sources */,

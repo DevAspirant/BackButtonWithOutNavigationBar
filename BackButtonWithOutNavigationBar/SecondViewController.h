@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SecondViewController.h
 //  BackButtonWithOutNavigationBar
 //
 //  Created by ammar falmban on 10/13/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
--(IBAction)GoToSecondViewController:(id)sender;
+@interface SecondViewController : UIViewController
+-(IBAction)BackToViewController:(id)sender;
 @end
